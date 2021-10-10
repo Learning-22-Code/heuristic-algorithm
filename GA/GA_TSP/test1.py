@@ -144,7 +144,7 @@ def mutation(children):
     return new_children
 
 
-# 得到最佳纯输出结果
+# 得到最佳输出结果
 def get_result(population):
     graded = [[get_total_distance(x), x] for x in population]
     graded = sorted(graded)
